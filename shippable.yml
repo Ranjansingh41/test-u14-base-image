@@ -1,1 +1,16 @@
 
+jobs:
+ - name: u14
+   type: runSh
+   steps:
+     - TASK:
+         runtime:
+           options:
+             imageName: "drydock/u14"
+             imageTag: master
+         script:
+         - java --version
+         - nodejs --version
+         - ruby --version
+         - python --version
+       
