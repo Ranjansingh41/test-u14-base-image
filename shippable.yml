@@ -12,6 +12,6 @@ jobs:
          - java -version
          - nodejs --version
          - source /usr/local/rvm/scripts/rvm
-         - ruby -version
+         - ruby -v
          - python -version
        
