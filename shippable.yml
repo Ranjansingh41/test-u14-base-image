@@ -9,8 +9,8 @@ jobs:
              imageName: "drydock/u14"
              imageTag: master
          script:
-         - java --version
+         - java -version
          - nodejs --version
-         - ruby --version
-         - python --version
+         - ruby -version
+         - python -version
        
