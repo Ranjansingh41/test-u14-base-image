@@ -11,6 +11,6 @@ jobs:
          script:
          - java -version
          - nodejs --version
-         - ruby -version
+         - ruby -v
          - python -version
        
